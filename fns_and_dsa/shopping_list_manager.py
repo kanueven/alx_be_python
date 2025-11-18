@@ -16,7 +16,7 @@ def view_list(shopping_list):
 
 #add item to shopping list
 def add_item(shopping_list):
-    item = input("Enter the item to add :")
+    item = input("Enter the item to add: ") 
     shopping_list.append(item)
     print(f"{item} has been added to the shopping list.")
 #remove item from shopping list
